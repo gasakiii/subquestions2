@@ -1,8 +1,6 @@
-# subquestions2
+# 情景画像中の文字領域の可読性についての主観評価実験
 
-# 画像の文字領域についての主観評価実験
-
-English version here: [README_ENG](/README_ENG.md)
+English version is here: [README_ENG](/README_ENG.md)
 
 ## 目的
 現在，画像はスマートフォンやSNSの普及などにより広く通信に用いられています．
@@ -25,7 +23,7 @@ English version here: [README_ENG](/README_ENG.md)
 まず、以下のコマンドを実行することでこのリポジトリをローカルに入れることができます。
 
 ```
-$ git clone https://github.com/gasakiii/subquestions.git
+$ git clone https://github.com/gasakiii/subquestions2.git
 ```
 
 次に、コピーしたディレクトリ（subquestions）に移動して、環境構築を行います。
@@ -88,7 +86,7 @@ imageは現在の画像数を表していて、number of text regionは現在の
 
 これを以下のリンクに送信してください。
 
-https://www.dropbox.com/request/MQjqFRoDhzmkvg3zbL7u
+https://www.dropbox.com/request/rIWq2KDb8yV8hnrJfW62
 
 提出していただいてアンケートは終了となります！ご協力ありがとうございました！
 
