@@ -4,15 +4,18 @@ English version is here: [README_ENG](/README_ENG.md)
 
 ## 目的
 現在，画像はスマートフォンやSNSの普及などにより広く通信に用いられています．
+
 一方で，画像は容量が大きいため，通信に利用する場合は圧縮しなければなりません．
+
 画像を圧縮する場合，画像内で重要であると考えられる文字領域を高品質に保つ必要があります．
+
 しかし，文字の可読性に関しては客観評価だけでは不十分であると考えられます．
 
 そこで，画像内の文字領域の品質に関する主観評価をお願いしたいと思います．
 
 お忙しいところではあると思いますが，よろしくお願いします．
 
-画像は全部で30枚、文字領域は93個あります． 10分程度で終わるものとなっているのでよろしくお願いします．
+文字領域画像は150枚あります． 15分程度で終わるものとなっているのでよろしくお願いします．
 
 ## リポジトリ内容
 こちらのリポジトリをコピーすることで、pythonを利用して画像を表示しつつ、スコアをterminal上で入力することができます。
@@ -26,24 +29,26 @@ English version is here: [README_ENG](/README_ENG.md)
 $ git clone https://github.com/gasakiii/subquestions2.git
 ```
 
-次に、コピーしたディレクトリ（subquestions）に移動して、環境構築を行います。
+次に、コピーしたディレクトリ（subquestions2）に移動して、環境構築を行います。
 
 ```
-$ cd subquestions
+$ cd subquestions2
 ```
 
 minicondaの場合、以下のコマンドで新しい環境を構築し、必要なパッケージ（numpy, matplotlib, pillow, opencv)をインストールしてください。
 
-必要なパッケージを持つ環境が既にある場合は、スキップしても大丈夫です。
+必要なパッケージを持つ環境が既にある場合は、以下のコマンドはスキップしても大丈夫です。
 
 ```
-$ conda create --name gasakiii python==3.7
-$ conda activate gasakiii
+$ conda create --name gasakiii2 python==3.7
+$ conda activate gasakiii2
 $ pip install -r requirements.txt
 ```
 
 ## 実験方法
-準備ができたら、以下のコマンドを実行して評価実験を開始することができます。第一引数に指定されたidを入力する必要があります。
+準備ができたら、以下のコマンドを実行して評価実験を開始することができます。第一引数に**指定されたid**を入力する必要があります。
+
+idの指定はslackの該当メッセージのスレッドでしています。
 
 ```
 $ python main.py {id}
@@ -58,7 +63,7 @@ $ python main.py {id}
 
 ```
 +--------------------------------------------------
-| image  1 / 30, number of text region 1 / 3
+| image  1 / 150
 +--------------------------------------------------
 | 5点 ： 全て問題なく読める
 | 4点 ： 概ね読めるが、一部読みづらい文字がある
@@ -70,14 +75,14 @@ Put your score >>
 ```
 
 ```
-image  1 / 30, number of text region 1 / 3
+image  1 / 150
 ```
 
-imageは現在の画像数を表していて、number of text regionは現在の画像中の文字領域数を表しています。
+ここでは、現在の進捗を示しています。
 
-赤枠で囲まれている文字領域のスコアを、指定された得点にそって決定し、入力してください。
+表示されている文字領域画像の可読性スコアを、指定された得点にそって決定し、入力してください。
 
-1-5点のスコアを入力し、Enterを押すと次の文字領域あるいは画像に移ります。
+1-5点のスコアを入力し、Enterを押すと次の文字領域画像に移ります。
 
 
 ## 提出方法
@@ -88,7 +93,7 @@ imageは現在の画像数を表していて、number of text regionは現在の
 
 https://www.dropbox.com/request/rIWq2KDb8yV8hnrJfW62
 
-提出していただいてアンケートは終了となります！ご協力ありがとうございました！
+ファイルを提出していただいてアンケートは終了となります！ご協力ありがとうございました！
 
 
 ## オプション：作成した環境を削除する
@@ -97,8 +102,8 @@ https://www.dropbox.com/request/rIWq2KDb8yV8hnrJfW62
 
 
 ```
-$ conda deactivate gasakiii
-$ conda remove -n gasakiii --all
+$ conda deactivate gasakiii2
+$ conda remove -n gasakiii2 --all
 ```
 
 deactivateできない場合は、一度terminalを再起動してから環境を削除（上記２行目を実行）してください。
