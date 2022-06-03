@@ -63,11 +63,11 @@ When executed, an image with the specified text area surrounded by a red frame a
 +--------------------------------------------------
 | image  1 / 150
 +--------------------------------------------------
-| 5点 ： 全て問題なく読める
-| 4点 ： 概ね読めるが、一部読みづらい文字がある
-| 3点 ： 一部読めない文字がある
-| 2点 ： 大半が読めない
-| 1点 ： 全く読めない
+| 5 points ： All read fine.
+| 4 points ： Generally readable, but some text is difficult to read.
+| 3 points ： Some of the text is unreadable.
+| 2 points ： Most of them can't read.
+| 1 point  ： I can't read at all.
 +--------------------------------------------------
 Put your score >> 
 ```
