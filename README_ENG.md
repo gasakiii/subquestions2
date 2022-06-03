@@ -49,7 +49,7 @@ When you are ready, you can start the evaluation experiment by executing the fol
 The id is specified in the thread of the corresponding message in slack.
 
 ```
-$ python main.py {id}
+$ python main_ENG.py {id}
 ```
 
 When executed, an image with the specified text area surrounded by a red frame and the following text on the terminal will be displayed.
