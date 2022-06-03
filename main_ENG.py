@@ -73,7 +73,7 @@ if __name__ == "__main__":
             # Evaluation
             while True:
                 print("+--------------------------------------------------")        
-                print(f"| image:  {count+1} / 140")
+                print(f"| image:  {count+1} / {len(imgfiles)}")
                 print("+--------------------------------------------------")        
                 print('| 5 points ： All read fine.')
                 print('| 4 points ： Generally readable, but some text is difficult to read.')
