@@ -13,7 +13,7 @@ Therefore, we would like to request a subjective evaluation of the quality of th
 
 We understand that you are busy, but we would appreciate your cooperation.
 
-There are 150 text images. It should take about 15 minutes to complete the evaluation.
+There are 140 text images. It should take about 15 minutes to complete the evaluation.
 
 ## Repository contents
 By copying this repository, you can use python to display images while entering scores on the terminal.
@@ -61,7 +61,7 @@ When executed, an image with the specified text area surrounded by a red frame a
 
 ```
 +--------------------------------------------------
-| image  1 / 150
+| image  1 / 140
 +--------------------------------------------------
 | 5 points ： All read fine.
 | 4 points ： Generally readable, but some text is difficult to read.
@@ -73,7 +73,7 @@ Put your score >>
 ```
 
 ```
-image  1 / 150
+image  1 / 140
 ```
 
 This section shows the current progress.
