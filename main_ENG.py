@@ -38,11 +38,6 @@ if __name__ == "__main__":
     # Get image files
     imgfiles = sorted(glob.glob(img_dir + "/*"), key=natural_keys)
 
-    # debug
-    with open("imgfiles.txt", 'w') as f:
-        for imgfile in imgfiles:
-            f.write(imgfile + '\n')
-
     fig = plt.figure()
 
     # evaluation all images    
